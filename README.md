@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
@@ -26,7 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# Angular_Blog
-Blog feito com Angular 17, projeto para curso Dio.me
->>>>>>> 6b980f7c4d9a82348647d622835921a120257a88
