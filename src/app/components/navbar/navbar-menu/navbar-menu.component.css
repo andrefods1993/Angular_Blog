@@ -1,0 +1,29 @@
+.menu-row,
+.menu-column {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+}
+
+.menu-row ul {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.menu-column ul {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.menu-row li,
+.menu-column li {
+	display: inline;
+}
+
+.menu-column a {
+	font-size: 1.2rem;
+}

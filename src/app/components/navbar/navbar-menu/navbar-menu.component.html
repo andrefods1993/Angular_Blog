@@ -1,0 +1,16 @@
+<nav
+	[ngClass]="{
+		'menu-row': layout === 'row',
+		'menu-column': layout === 'column'
+	}"
+>
+	<ul>
+		<li *ngFor="let item of menuItems">
+			<a
+				[href]="item.route"
+				class="text-white hover:bg-pink-900 focus:bg-pink-950 block rounded-md px-3 py-2 text-sm font-medium"
+				>{{ item.label }}</a
+			>
+		</li>
+	</ul>
+</nav>

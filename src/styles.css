@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* 
+* --> Font: Plus Jakarta Sans
+*/
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* 
+* --> Icons: CSS GG
+*/
+@import "../node_modules/css.gg/icons/icons.css";
+
+/* 
+* --> Tailwind CSS
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+* --> Default Colors
+*/
+:root {
+	--bg-navbar: linear-gradient(to right, #8a2387, #e94057, #f27121);
+	--bg-button: linear-gradient(to right, #350377, #8a2387);
+}
+
+* {
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* linear-gradient(to right, #350377, #d64536); */
+
+body {
+	background: linear-gradient(0deg, #490f39, #2d0b36);
+}

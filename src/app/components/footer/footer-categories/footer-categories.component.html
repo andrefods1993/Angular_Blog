@@ -1,0 +1,16 @@
+<div class="flex flex-row justify-center items-center">
+	<div class="flex flex-row gap-10 flex-wrap">
+		<div *ngFor="let group of categoriesGroupArray">
+			<h2 class="text-base font-semibold p-3 text-white">{{ group.title }}</h2>
+			<ul>
+				<li *ngFor="let item of group.items" class="px-3 py-2">
+					<a
+						[href]="item.route"
+						class="text-white hover:bg-pink-900 focus:bg-pink-950 rounded-md px-3 py-2 text-sm"
+						>{{ item.label }}</a
+					>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
