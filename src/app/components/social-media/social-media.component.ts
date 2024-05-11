@@ -16,9 +16,25 @@ export class SocialMediaComponent {
 	github: string = '../../../assets/images/github.svg';
 
 	socialMedia: Array<SocialMedia> = [
-		{ label: 'Instagram', route: '#instagram', icon: this.instagram },
-		{ label: 'Facebook', route: '#facebook', icon: this.facebook },
-		{ label: 'Linkedin', route: '#linkedin', icon: this.linkedin },
-		{ label: 'GitHub', route: '#github', icon: this.github },
+		{
+			label: 'Instagram',
+			route: 'https://www.instagram.com/in/andrefilipeods/',
+			icon: this.instagram,
+		},
+		{
+			label: 'Facebook',
+			route: 'https://pt-br.facebook.com/andrefilipeods',
+			icon: this.facebook,
+		},
+		{
+			label: 'Linkedin',
+			route: 'https://www.linkedin.com/in/andrefilipeods/',
+			icon: this.linkedin,
+		},
+		{
+			label: 'GitHub',
+			route: 'https://github.com/andrefods1993',
+			icon: this.github,
+		},
 	];
 }
